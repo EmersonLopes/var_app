@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'pages/home/home_page.dart';
+import 'pages/venda_mercantil/venda_mercantil_page.dart';
 import 'utils/routes.dart';
 
 class MyApp extends StatelessWidget {
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       initialRoute: Routes.HOME,
       routes: {
         Routes.HOME: (ctx) => HomePage(),
+        Routes.VENDA_MERCANTIL: (ctx) => VendaMercantilPage(),
       },
     );
   }
